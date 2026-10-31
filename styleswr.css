@@ -116,3 +116,18 @@ th {
 tr:nth-child(odd) {
    background-color: #deccba;
 }
+
+
+form {
+    width: auto;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+
+.btn {
+    grid-column: 1 / span 2;
+}
